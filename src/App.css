@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+table, th, tr, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+
+th {
+  font-style: italic;
+}
+
+th, td {
+  padding: 10px;
+}
+
+.sutdent-name::first-letter {
+  text-transform: capitalize;
+}
+
+.color-red {
+  color: #da4a4a;
+}
+
+.color-green {
+  color: #55c355;
+}
+
+input[type='text'],
+input[type='button'],
+select {
+  width: 300px;
+  border: 1px solid #428bca;
+  outline: none;
+  margin: 15px 10px;
+  height: 50px;
+  font-size: 16px;
+}
+
+input[type='button'] {
+  background: #115792;
+  cursor: pointer;
+}
+
+input[type='button']:disabled {
+  background: #73b1e6;
+  color: white;
+  cursor: not-allowed;
+}
+
+.verfiy-form {
+  display: flex;
+}
+.verfiy-form > div {
+  flex: 1;
+}
